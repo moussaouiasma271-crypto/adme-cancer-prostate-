@@ -1,0 +1,207 @@
+
+        -----PARAMÈTRES DE L'ADME - CANDIDATS MÉDICAMENTS CONTRE LE CANCER DE LA PROSTATE------
+             .......... Base de données PharmaCancerRevolution............
+           .........Source des données : ChEMBL, DrugBank, PubChem............
+
+-MOLECULE 1:
+ ENZALUTAMIDE (MDV3100)
+ChEMBL ID: CHEMBL1261870
+Target: Androgen Receptor (AR) Antagonist
+
+*ABSORPTION:
+  Oral Bioavailability: ~84%
+  Tmax: 0.5-3 hours
+  Food Effect: No significant effect
+  Caco-2 Permeability: High (log Papp = -4.8)
+
+*DISTRIBUTION:
+  Protein Binding: 97-98%
+  Volume of Distribution: 110 L
+  Blood-Brain Barrier: Crosses BBB
+  Plasma Half-life: 5.8 days (major metabolite: 7.8-8.6 days)
+
+*METABOLISM:
+  Primary Enzyme: CYP2C8 (major), CYP3A4 (minor)
+  Active Metabolite: N-desmethyl enzalutamide
+  Metabolite Activity: Equipotent to parent
+  First-Pass Effect: Moderate
+
+*EXCRETION:
+  Primary Route: Urine (71%)
+  Fecal Excretion: 14%
+  Renal Clearance: Minimal unchanged drug
+  Clearance: 0.56 L/h
+
+*TOXICITY:
+  LD50 (rat, oral): >2000 mg/kg
+  Hepatotoxicity Risk: Low to Moderate
+  Cardiotoxicity: QT prolongation (monitor)
+
+
+
+-MOLECULE 2: 
+ABIRATERONE ACETATE
+ChEMBL ID: CHEMBL1200920
+Target: CYP17A1 Inhibitor
+
+*ABSORPTION:
+  Oral Bioavailability: ~5% (fasted), ~1000% increase with high-fat meal
+  Tmax: 2 hours (with food)
+  Food Effect: CRITICAL - Must take fasted
+  Solubility: Practically insoluble in water
+
+*DISTRIBUTION:
+  Protein Binding: >99% (to albumin and α1-acid glycoprotein)
+  Volume of Distribution: 19,669 L
+  Plasma Half-life: 12-16 hours
+  Tissue Distribution: Extensive
+
+*METABOLISM:
+  Primary Enzyme: CYP3A4, SULT2A1 (sulfation)
+  Active Form: Abiraterone (after de-acetylation)
+  Metabolites: Abiraterone sulfate, N-oxide sulfate
+  First-Pass Effect: Extensive
+
+*EXCRETION:
+  Primary Route: Feces (~88%)
+  Urine: ~5%
+  Unchanged Drug: <1%
+  Clearance: 116 L/h
+
+*TOXICITY:
+  LD50 (rat, oral): >2000 mg/kg
+  Hepatotoxicity Risk: Moderate (ALT monitoring required)
+  Cardiovascular: Hypertension, hypokalemia, fluid retention
+
+
+
+-MOLECULE 3: 
+DAROLUTAMIDE (ODM-201)
+ChEMBL ID: CHEMBL3707346
+Target: Androgen Receptor Antagonist (Next-Gen)
+
+*ABSORPTION:
+  Oral Bioavailability: ~30%
+  Tmax: 4 hours
+  Food Effect: 2.25-fold increase with high-fat meal
+  Formulation: Film-coated tablet
+
+*DISTRIBUTION:
+  Protein Binding: 92%
+  Volume of Distribution: ~110 L
+  BBB Penetration: Minimal (KEY advantage vs enzalutamide)
+  Plasma Half-life: ~20 hours
+
+*METABOLISM:
+  Primary Enzyme: CYP3A4, UGT1A9, UGT1A1
+  Active Metabolites: Keto-darolutamide, diastereomers
+  Metabolic Pathway: Oxidation + glucuronidation
+  Drug Interactions: Low CYP inhibition/induction
+
+*EXCRETION:
+  Primary Route: Feces (63%)
+  Urine: 32%
+  Unchanged Drug: <3%
+  Clearance: 1.1 L/h
+
+*TOXICITY:
+  LD50 (rat, oral): >2000 mg/kg
+  Hepatotoxicity Risk: Low
+  Seizure Risk: Minimal (does not cross BBB significantly)
+  Cardiovascular: Low risk
+
+
+
+-MOLECULE 4: 
+OLAPARIB
+ChEMBL ID: CHEMBL521686
+Target: PARP1/2 Inhibitor (for BRCA-mutated PCa)
+
+*ABSORPTION:
+  Oral Bioavailability: ~60% (tablet formulation)
+  Tmax: 1.5 hours
+  Food Effect: 20% increase in AUC with food
+  Formulation: Tablet (improved from capsule)
+
+*DISTRIBUTION:
+  Protein Binding: ~82%
+  Volume of Distribution: 167 L
+  Plasma Half-life: 14.9 hours
+  Tissue Distribution: Wide
+
+*METABOLISM:
+  Primary Enzyme: CYP3A4/5 (major)
+  Metabolites: Mostly inactive
+  Active Fraction: Parent drug
+  Drug Interactions: Avoid strong CYP3A inhibitors
+
+*EXCRETION:
+  Primary Route: Feces (42%)
+  Urine: 44% (15% unchanged)
+  Renal Clearance: 4.2 L/h
+  Total Clearance: 8.6 L/h
+
+*TOXICITY:
+  LD50 (rat, oral): Information limited
+  Hematotoxicity: YES - Anemia, thrombocytopenia (monitor CBC)
+  Myelodysplastic Syndrome/AML: Rare but serious (<1.5%)
+  Pregnancy Category: D (teratogenic)
+
+
+
+-MOLECULE 5: 
+LUTETIUM-177-PSMA-617 (Pluvicto)
+Target: Prostate-Specific Membrane Antigen (PSMA)
+-
+*ABSORPTION:
+  Route: Intravenous infusion ONLY
+  Bioavailability: 100% (IV)
+  Dosing: 7.4 GBq every 6 weeks (6 cycles)
+
+*DISTRIBUTION:
+  Target Binding: High affinity to PSMA+ cells
+  Tumor Uptake: Maximal at 24-48h post-infusion
+  Salivary Gland Uptake: Common (xerostomia risk)
+  Half-life (physical): 6.65 days
+  Half-life (biological): ~3 days
+
+*METABOLISM:
+  Type: Radioactive decay (β- emission)
+  Metabolic Pathway: Minimal hepatic metabolism
+  Peptide Component: Proteolytic degradation
+  Renal Handling: Glomerular filtration
+
+*EXCRETION:
+  Primary Route: Urine (~67% in 48h)
+  Feces: <1%
+  Radiation Safety: Patient must avoid close contact for 3 days
+  Hydration: Essential to reduce kidney exposure
+
+*TOXICITY:
+  Radiation Dose: Kidneys (major), bone marrow
+  Hematotoxicity: Thrombocytopenia (most common)
+  Nephrotoxicity: Managed with amino acid co-infusion
+  Secondary Malignancy Risk: Theoretical long-term risk
+
+================================================================================
+
+RANKING BY THERAPEUTIC INDEX (Efficacy/Toxicity):
+
+1. Darolutamide (ODM-201) - Best safety profile ⭐⭐⭐⭐⭐
+
+2. Enzalutamide (MDV3100) - High efficacy ⭐⭐⭐⭐
+
+3. Lu-177-PSMA-617 - Breakthrough for mCRPC ⭐⭐⭐⭐⭐
+
+4. Olaparib - Precision medicine (BRCA+) ⭐⭐⭐⭐
+
+5. Abiraterone - Requires prednisone co-admin ⭐⭐⭐
+
+CLINICAL TRIAL REFERENCES:
+- ARAMIS (Darolutamide): NEJM 2019; 380:1235-1246**********
+- AFFIRM (Enzalutamide): NEJM 2012; 367:1187-1197**********
+- VISION (Lu-177-PSMA): NEJM 2021; 385:1091-1103**********
+- PROfound (Olaparib): NEJM 2020; 382:2091-2102***********
+
+Last Updated: 2025-10-16
+Qualité des données : Sources de qualité clinique, évaluées par des pairs
